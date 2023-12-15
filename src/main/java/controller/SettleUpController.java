@@ -24,8 +24,6 @@ public class SettleUpController {
         List<Expense> expenses = userSettleUpService.settleUpUser(dto.getUserId());
         return new UserSettleUpResponseDTO(expenses);
 
-        /**
-         * ToDo: add try-catch statements by self.
-         */
+        //Random error trying
     }
 }
